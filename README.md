@@ -10,7 +10,7 @@ Aprendràs a usar correctament els verbs HTTP i a gestionar els codis de respost
 
 Accedeix a la pàgina ->https://start.spring.io/, i genera un projecte Spring boot amb les següents característiques:
 
-![Captura de pantalla 2023-03-27 a les 19.38.08.png](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.38.08.png)
+![Nivell 1](https://github.com/AnnaSantasusana/Tasca-S5.01/blob/main/Imatges/Captura%20de%20pantalla%202023-03-27%20a%20les%2019.38.08.png)
 
 Tenim una entitat anomenada Sucursal, que disposa de les següents propietats:
 
