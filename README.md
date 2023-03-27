@@ -10,7 +10,7 @@ Aprendràs a usar correctament els verbs HTTP i a gestionar els codis de respost
 
 Accedeix a la pàgina ->https://start.spring.io/, i genera un projecte Spring boot amb les següents característiques:
 
-![](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.38.08.png)
+![Captura de pantalla 2023-03-27 a les 19.38.08.png](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.38.08.png)
 
 Tenim una entitat anomenada Sucursal, que disposa de les següents propietats:
 
@@ -65,7 +65,7 @@ Per tal de fer-la més atractiva, pots usar opcionalment alguna llibreria CSS qu
 
 Accedeix a la pàgina ->https://start.spring.io/, i genera un projecte Spring boot amb les següents característiques:
 
-![](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.51.58.png)
+![Captura de pantalla 2023-03-27 a les 19.51.58.png](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.51.58.png)
 
 Tenim una entitat anomenada FlorEntity, que disposa de les següents propietats:
 
@@ -121,7 +121,7 @@ Has d’incloure swagger perquè quasevol desenvolupador/a pugui tenir una idea 
 
 Accedeix a la pàgina ->https://start.spring.io/, i genera un projecte Spring boot amb les següents característiques:
 
-![](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.57.14.png)
+![Captura de pantalla 2023-03-27 a les 19.57.14.png](/Users/annasantasusanaberch/Repositoris/Respositori_Tasca_S5.01/Imatges/Captura de pantalla 2023-03-27 a les 19.57.14.png)
 
 Fent servir RestTemplate o WebClient, t’hauràs de connectar a l’API que has fet al nivell 2, per cridar i testar totes les peticions que permet aquesta API.
 
