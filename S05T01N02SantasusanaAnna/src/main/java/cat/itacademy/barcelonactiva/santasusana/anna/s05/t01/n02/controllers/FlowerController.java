@@ -78,10 +78,7 @@ public class FlowerController {
     public ResponseEntity<Message> updateFlower(@Parameter(description = "Flower's id") @PathVariable("pk_FlowerID") int pk_FlowerID,
                                                 @Valid @RequestBody FlowerDTO flower, WebRequest request) throws Exception {
         try {
-            FlowerDTO f = flowerService.getFlowerDTOById(pk_FlowerID);
-            f.setNameFlower(flower.getNameFlower());
-            f.setCountryFlower(flower.getCountryFlower());
-            flowerService.saveFlower(f);
+            flowerService.updateFlower(pk_FlowerID, flower);
             Message message = new Message(HttpStatus.OK.value(), new Date(), "Flower updated correctly", request.getDescription(false));
             return new ResponseEntity<>(message, HttpStatus.OK);
         } catch (FlowerNotFoundException e) {
@@ -166,6 +163,7 @@ public class FlowerController {
                             responseCode = "404",
                             description = "There are no flowers into the database",
                             content = {@Content(mediaType = "application/json", schema = @Schema(implementation = Message.class))})})
+
     public ResponseEntity<List<FlowerDTO>> getAllFlowers() throws Exception {
 
         try {

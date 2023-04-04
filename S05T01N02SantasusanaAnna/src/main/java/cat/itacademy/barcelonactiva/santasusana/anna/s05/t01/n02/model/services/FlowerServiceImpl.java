@@ -22,8 +22,11 @@ public class FlowerServiceImpl implements IFlowerService {
     }
 
     @Override
-    public boolean existsFlowerById(int flowerID) {
-        return flowerRepo.existsById(flowerID);
+    public void updateFlower(int flowerID, FlowerDTO flowerDTO) {
+        FlowerDTO flower = getFlowerDTOById(flowerID);
+        flower.setNameFlower(flowerDTO.getNameFlower());
+        flower.setCountryFlower(flowerDTO.getCountryFlower());
+        flowerRepo.save(FlowerModelMapper.singleInstance().toFlower(flower));
     }
 
     @Override

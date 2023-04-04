@@ -8,7 +8,7 @@ public interface IFlowerService {
 
     void saveFlower(FlowerDTO flowerDTO);
 
-    boolean existsFlowerById(int flowerID);
+    void updateFlower(int flowerID, FlowerDTO flowerDTO);
 
     FlowerDTO getFlowerDTOById(int flowerID);
 
