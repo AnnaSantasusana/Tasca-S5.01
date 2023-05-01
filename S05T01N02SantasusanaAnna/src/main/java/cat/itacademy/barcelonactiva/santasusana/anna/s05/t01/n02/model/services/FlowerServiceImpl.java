@@ -51,7 +51,7 @@ public class FlowerServiceImpl implements IFlowerService {
     public List<FlowerDTO> listFlowers() {
         List<FlowerEntity> flowers = flowerRepo.findAll();
         if(!flowers.isEmpty()) {
-            return FlowerModelMapper.singleInstance().toBranchDTOList(flowerRepo.findAll());
+            return FlowerModelMapper.singleInstance().toFlowerDTOList(flowerRepo.findAll());
         } else {
             throw new FlowerNotFoundException("The database is empty");
         }

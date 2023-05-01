@@ -1,5 +1,6 @@
 package cat.itacademy.barcelonactiva.santasusana.anna.s05.t01.n01.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 import java.util.Arrays;
@@ -15,6 +16,7 @@ public class BranchOfficeDTO {
     @NotBlank(message = "Country cannot be empty")
     private String countryBranch;
     private String typeBranch;
+    @JsonIgnore
     private final List<String> COUNTRIES_UE = Arrays.asList("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus",
             "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland",
             "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",

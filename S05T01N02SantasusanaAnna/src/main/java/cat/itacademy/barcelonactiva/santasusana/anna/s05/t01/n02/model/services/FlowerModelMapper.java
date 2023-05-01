@@ -29,7 +29,7 @@ public class FlowerModelMapper {
         return mapper.map(flowerDTO, FlowerEntity.class);
     }
 
-    public List<FlowerDTO> toBranchDTOList(List<FlowerEntity> flowerList) {
+    public List<FlowerDTO> toFlowerDTOList(List<FlowerEntity> flowerList) {
         return flowerList.stream().map(this::toFlowerDTO).collect(Collectors.toList());
     }
 }

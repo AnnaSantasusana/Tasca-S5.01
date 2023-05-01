@@ -3,7 +3,6 @@ package cat.itacademy.barcelonactiva.santasusana.anna.s05.t01.n01.model.domain;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 @NoArgsConstructor
 @Data
